@@ -2,10 +2,10 @@
     <header className="header">
         <nav>
             <ul className="links">
-                <li><a href="/">About</a></li>
-                <li><a href="/">Projects</a></li>
-                <li><a href="/">Contact</a></li>
-                <li><a href="/">Hobbies</a></li>
+                <li><router-link to="/">About</router-link></li>
+                <li><router-link to="/projects">Projects</router-link></li>
+                <li><router-link to="/contact">Contact</router-link></li>
+                <li><router-link to="/hobbies">Hobbies</router-link></li>
             </ul>
         </nav>        
     </header>
